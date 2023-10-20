@@ -1,0 +1,20 @@
+.title_large{
+    padding: 50px;
+    text-align: center;
+    color:cornflowerblue;
+    font-weight: lighter;
+}
+.articleall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+.articleimg{
+    width: 300px;
+}
+
+.articleone{
+    width: 320px;
+
+}

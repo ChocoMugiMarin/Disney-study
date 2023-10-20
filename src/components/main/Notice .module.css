@@ -1,0 +1,49 @@
+.notice{
+    border-bottom: 1px solid #07c;
+
+   
+}
+
+
+.title_large{
+    padding: 50px;
+    text-align: center;
+    color:#07c;
+    font-weight: lighter;
+}
+.article{
+    display: flex;
+    justify-content:space-between;
+    border-top: 20px;
+    padding: 50px;
+}
+.another2{
+    display: flex;
+}
+
+.another2_2{
+    display: flex;
+    margin: 10px;
+}
+
+.img_small{
+    width: 300px;
+    margin: 15px;
+}
+.articleall{
+    margin: 10px 60px;
+  
+}
+.articleone{
+    height: 100px;
+    border-bottom: 1px dotted gray;
+    border-top: 1px dotted gray;
+
+}
+.more{
+    margin-left: 1150px;
+}
+.title{
+    color: #07c;
+    font-size: 20px;
+}

@@ -38,18 +38,6 @@ const article = [
 export default function Inform() {
   const [isShow, setIsShow] = useState(true);
 
-  // const click = (e) => {
-  //   //useStateをfalseにする処理を書くのと
-  //   setIsShow(false);
-  // };
-
-  // document.addEventListener("DOMContentLoaded", function () {
-  //   // ここにコードを書く
-  //   document.getElementById("mmm").onclick = function () {
-  //     this.style.backgroundColor = red;
-  //   };
-  // });
-
   //1がクリックされた時の処理
   const [is1Clicked, setIs1Clicked] = useState(true);
 
@@ -57,6 +45,10 @@ export default function Inform() {
     setIs1Clicked((prevIs1Clicked) => !prevIs1Clicked);
     setIsShow(true);
     setIs2Clicked(false);
+    setIs3Clicked(false);
+    setIs4Clicked(false);
+    setIs5Clicked(false);
+    setIs6Clicked(false);
   };
 
   //2がクリックされた時の処理
@@ -66,16 +58,59 @@ export default function Inform() {
     setIs2Clicked((prevIs2Clicked) => !prevIs2Clicked);
     setIsShow(false);
     setIs1Clicked(false);
+    setIs3Clicked(false);
+    setIs4Clicked(false);
+    setIs5Clicked(false);
+    setIs6Clicked(false);
   };
+  //3がクリックされた時の処理
+  const [is3Clicked, setIs3Clicked] = useState(false);
 
-  // const changeShow = () => {
-  //   setIsShow(true);
-  // };
+  const change3Color = () => {
+    setIs3Clicked((prevIs3Clicked) => !prevIs3Clicked);
+    setIsShow(false);
+    setIs1Clicked(false);
+    setIs2Clicked(false);
+    setIs4Clicked(false);
+    setIs5Clicked(false);
+    setIs6Clicked(false);
+  };
+  //4がクリックされた時の処理
+  const [is4Clicked, setIs4Clicked] = useState(false);
 
-  // const moe = () => {
-  //   changeColor();
-  //   changeShow();
-  // };
+  const change4Color = () => {
+    setIs4Clicked((prevIs4Clicked) => !prevIs4Clicked);
+    setIsShow(false);
+    setIs1Clicked(false);
+    setIs2Clicked(false);
+    setIs3Clicked(false);
+    setIs5Clicked(false);
+    setIs6Clicked(false);
+  };
+  //5がクリックされた時の処理
+  const [is5Clicked, setIs5Clicked] = useState(false);
+
+  const change5Color = () => {
+    setIs5Clicked((prevIs5Clicked) => !prevIs5Clicked);
+    setIsShow(false);
+    setIs1Clicked(false);
+    setIs2Clicked(false);
+    setIs3Clicked(false);
+    setIs4Clicked(false);
+    setIs6Clicked(false);
+  };
+  //6がクリックされた時の処理
+  const [is6Clicked, setIs6Clicked] = useState(false);
+
+  const change6Color = () => {
+    setIs6Clicked((prevIs6Clicked) => !prevIs6Clicked);
+    setIsShow(false);
+    setIs1Clicked(false);
+    setIs5Clicked(false);
+    setIs2Clicked(false);
+    setIs3Clicked(false);
+    setIs4Clicked(false);
+  };
 
   return (
     <div className={styles.inform}>
@@ -85,46 +120,42 @@ export default function Inform() {
         <div>
           <button
             onClick={change1Color}
-            style={{ backgroundColor: is1Clicked ? "#3fb811" : "initial" }}
+            style={{ backgroundColor: is1Clicked ? "#0075c2" : "initial" }}
             className={styles.btn}
           >
             すべて
           </button>
           <button
             onClick={change2Color}
-            style={{ backgroundColor: is2Clicked ? "#3fb811" : "initial" }}
+            style={{ backgroundColor: is2Clicked ? "#0075c2" : "initial" }}
             className={styles.btn}
           >
             パークチケット
           </button>
           <button
-            onClick={() => {
-              setIsShow(false);
-            }}
+            onClick={change3Color}
+            style={{ backgroundColor: is3Clicked ? "#0075c2" : "initial" }}
             className={styles.btn}
           >
             イベント/プログラム
           </button>
           <button
-            onClick={() => {
-              setIsShow(false);
-            }}
+            onClick={change4Color}
+            style={{ backgroundColor: is4Clicked ? "#0075c2" : "initial" }}
             className={styles.btn}
           >
             グッズ/ショップ
           </button>
           <button
-            onClick={() => {
-              setIsShow(false);
-            }}
+            onClick={change5Color}
+            style={{ backgroundColor: is5Clicked ? "#0075c2" : "initial" }}
             className={styles.btn}
           >
             メニュー/レストラン
           </button>
           <button
-            onClick={() => {
-              setIsShow(false);
-            }}
+            onClick={change6Color}
+            style={{ backgroundColor: is6Clicked ? "#0075c2" : "initial" }}
             className={styles.btn}
           >
             東京ディズニーリゾート全般

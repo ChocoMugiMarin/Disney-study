@@ -1,0 +1,82 @@
+.head {
+  /* height: 80px; */
+  background-color: aliceblue;
+  display: flex;
+}
+
+.btnLeft {
+  height: 80px;
+  width: 400px;
+  font-size: 20px;
+  color: navy;
+  border: none;
+  background: transparent;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.imgLeft {
+  height: 60px;
+  width: 300px;
+}
+
+.btn1 {
+  height: 80px;
+  width: 130px;
+  font-size: 10px;
+  border: none;
+  background: transparent;
+  color: navy;
+}
+
+.btn2 {
+  height: 80px;
+  width: 130px;
+  font-size: 10px;
+  border: none;
+  background: transparent;
+  color: pink;
+}
+.btn3 {
+  height: 80px;
+  width: 130px;
+  font-size: 10px;
+  border: none;
+  background: transparent;
+  color: cadetblue;
+}
+.btn4 {
+  height: 80px;
+  width: 130px;
+  font-size: 10px;
+  border: none;
+  background: transparent;
+  color: blue;
+}
+.btn5 {
+  height: 80px;
+  width: 130px;
+  font-size: 10px;
+  border: none;
+  background: transparent;
+  color: orange;
+}
+
+.btnRight {
+  width: 50px;
+  padding: 0px;
+  margin: 0px;
+  border-left: 1px solid gray;
+}
+.moe {
+  color: aliceblue;
+  height: 80px;
+}
+
+.btn1.press {
+  box-shadow: 0 4px 0 #d01a0a;
+}
+.btn1.press:hover {
+  transform: translateY(4px);
+  box-shadow: none;
+}

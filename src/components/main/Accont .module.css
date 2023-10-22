@@ -1,0 +1,55 @@
+.title_large{
+    padding: 50px;
+    text-align: center;
+    color:#07c;
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+.snsall{
+    display: flex;
+  
+
+}
+
+.btn{
+
+    margin: 5px;
+    display: flex;
+    background-color: white;
+    border-radius:3%;
+    width: 450px;
+    height: 120px;
+
+    border: 1px solid grey;
+
+}
+
+.btnimg{
+    width: 100px;
+    margin: 10px;
+}
+.alll{
+    display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+}
+.btnp{
+    margin: 20px;
+}
+
+.dis{
+    text-align: center;
+    font-size: 15px;
+    padding: 0%;
+    margin: 0%;
+
+
+    
+}
+
+.title{
+    font-size: 20px;
+    color: #07c;
+    padding: 0px;
+    margin: 0px;
+}

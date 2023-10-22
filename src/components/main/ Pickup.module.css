@@ -1,0 +1,56 @@
+.pickup{
+    border-bottom: 1px solid #07c;
+    padding-bottom: 50px;
+
+}
+
+
+.title_large{
+    padding: 50px;
+    text-align: center;
+    color:#07c;
+    font-weight: lighter;
+}
+.articleall{
+    display: flex;
+}
+
+.articleLeft{
+    width: 2300px;
+    padding: 10px;
+
+
+
+
+}
+.imgleft{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.articleright{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.imgright{
+    margin: 10px;
+    width: 300px;
+}
+
+.title{
+    font-size: 20px;
+    color: #07c;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.date{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+}

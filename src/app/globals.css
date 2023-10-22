@@ -1,4 +1,14 @@
-:root {
+a:hover {
+  opacity: 0.6;
+  color: grey;
+}
+
+link:hover {
+  opacity: 0.6;
+  color: gray;
+}
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +114,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */

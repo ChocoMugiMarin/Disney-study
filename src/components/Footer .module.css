@@ -1,0 +1,22 @@
+.all{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    padding: 20px;
+
+
+}
+
+.one{
+
+ 
+  padding: 5px 15px;
+   border-left: 1px solid gray;
+}
+
+.last{
+     text-align: center;
+     padding: 10px;
+   
+
+}

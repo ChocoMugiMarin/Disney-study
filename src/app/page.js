@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div>
-      <Header></Header>
+      <Header>moeeeeeeeeeeeee</Header>
       <Navibar></Navibar>
       <Main01></Main01>
       <Footer></Footer>

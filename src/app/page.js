@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Header>moeeeeeeeeeeeee</Header>
-      <Navibar></Navibar>
+      <Navibar>FUKAAAAA</Navibar>
       <Main01></Main01>
       <Footer></Footer>
     </div>

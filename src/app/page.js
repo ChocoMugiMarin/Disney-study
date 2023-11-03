@@ -1,10 +1,7 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import Header from '@/components/Header'
-import Navibar from '@/components/Navibar'
-import Main01 from '@/components/main/Main01'
-import Footer from '@/components/Footer'
-
+import Header from "@/components/Header";
+import Navibar from "@/components/Navibar";
+import Main01 from "@/components/main/Main01";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,5 +11,5 @@ export default function Home() {
       <Main01></Main01>
       <Footer></Footer>
     </div>
-  )
+  );
 }

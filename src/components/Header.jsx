@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -9,34 +10,77 @@ export default function Header() {
       </button>
       <div className={styles.moe}>
         <button className={styles.btn1}>
-          <img
+          <Image
             src="description_black_24dp.svg"
+            width={50}
+            height={50}
+            alt=""
             className={styles.btnRight}
-          ></img>
+          />
           <p>HOME</p>
         </button>
         <button className={styles.btn2}>
-          <img src="home_black_24dp.svg" className={styles.btnRight}></img>
+          <Image
+            src="home_black_24dp.svg"
+            width={50}
+            height={50}
+            alt=""
+            className={styles.btnRight}
+          />
           <p>東京ディズニーランド</p>
         </button>
         <button className={styles.btn3}>
-          <img
-            src="description_black_24dp.svg"
+          <Image
+            src="home_black_24dp.svg"
+            width={50}
+            height={50}
+            alt=""
             className={styles.btnRight}
-          ></img>
+          />
           <p>東京ディズニーシー</p>
         </button>
         <button className={styles.btn4}>
-          <img src="home_black_24dp.svg" className={styles.btnRight}></img>
+          <Image
+            src="home_black_24dp.svg"
+            width={50}
+            height={50}
+            alt=""
+            className={styles.btnRight}
+          />
           <p>ホテル</p>
         </button>
         <button className={styles.btn5}>
-          <img
+          <Image
             src="description_black_24dp.svg"
+            width={50}
+            height={50}
+            alt=""
             className={styles.btnRight}
-          ></img>
+          />
           <p>予約/購入</p>
         </button>
+      </div>
+      <div className={styles.headerRightMenu}>
+        <div className="menu">
+          <Image
+            src="description_black_24dp.svg"
+            width={24}
+            height={24}
+            alt=""
+            className={styles.menuBtn}
+          />
+          お気に入り
+        </div>
+        <div className="menu">
+          <Image
+            src="description_black_24dp.svg"
+            width={24}
+            height={24}
+            alt=""
+            className={styles.menuBtn}
+          />
+          Language
+        </div>
       </div>
     </div>
   );
